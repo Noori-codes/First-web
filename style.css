@@ -1,0 +1,32 @@
+* {
+  text-align: center;
+  font-family: sans-serif;
+}
+body {
+  border-bottom: 10px solid #1098ad;
+}
+h1 {
+  font-size: 40px;
+  color: #1098ad;
+  border-bottom: 10px solid #1098ad;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+}
+a {
+  font-size: 23px;
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: darkslategray;
+  font-weight: bold;
+}
