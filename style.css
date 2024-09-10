@@ -2,8 +2,10 @@
   text-align: center;
   font-family: sans-serif;
 }
-body {
-  border-bottom: 10px solid #1098ad;
+
+.container {
+  width: 800px;
+  margin: 0 auto; /*Centering the container;*/
 }
 h1 {
   font-size: 40px;
@@ -20,13 +22,26 @@ h2 {
 p {
   font-size: 20px;
 }
-a {
-  font-size: 23px;
+a:link {
+  font-size: 16px;
   text-decoration: none;
-  color: blue;
+  color: white;
+  text-transform: uppercase;
+  background-color: black;
+  border-bottom: 10px solid #1098ad;
+  border: 5px solid black;
+  border-radius: 25px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0 13px;
 }
 
 a:hover {
   color: darkslategray;
-  font-weight: bold;
+  background-color: white;
+  border: 5px solid black;
+}
+.imran-pic {
+  width: auto;
+  border-radius: 15px;
 }
