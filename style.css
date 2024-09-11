@@ -7,11 +7,12 @@
   width: 800px;
   margin: 0 auto; /*Centering the container;*/
 }
-h1 {
-  font-size: 40px;
+.hello {
+  font-size: 50px;
   color: #1098ad;
   border-bottom: 10px solid #1098ad;
   text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 h2 {
